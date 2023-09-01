@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Branch {
+public class BranchInfo {
     private String name;
-    private Commit commit;
+    private String lastCommitSha;
     
 }

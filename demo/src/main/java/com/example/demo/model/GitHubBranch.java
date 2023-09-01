@@ -5,9 +5,8 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GitHubRepository {
+public class GitHubBranch {
     private String name;
-    private boolean fork;
-    private Owner owner;
-    
+    private Commit commit;
+
 }

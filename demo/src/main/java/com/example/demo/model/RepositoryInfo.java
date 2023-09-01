@@ -7,5 +7,5 @@ import lombok.Data;
 public class RepositoryInfo {
     private String repositoryName;
     private String ownerLogin;
-    private List<Branch> branches;
+    private List<BranchInfo> branches;
 }
